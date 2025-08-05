@@ -93,7 +93,7 @@ const products = [
     },
     {
         id: 9,
-        image: "./images/products/vigge pizza.webp",
+        image: "./images/products/veggie pizza.webp",
         title: "Veggie Pizza",
         description: "Loaded with fresh veggies and cheese.",
         price: 500,
