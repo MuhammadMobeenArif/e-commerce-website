@@ -12,9 +12,9 @@
 body {
     background: linear-gradient(120deg, #0f172a 0%, #a21caf 100%);
     font-family: 'Poppins', Arial, sans-serif;
-    color: #fff;
+    color: #0e0d0d;
     min-height: 100vh;
-    scrollbar-color: var(--accent) var(--bg);
+    scrollbar-color: var(--bg) var(--bg);
     scrollbar-width: thin;
     cursor: none;
 }
@@ -37,14 +37,14 @@ body {
 
 .cursor-hover {
     background: radial-gradient(circle at 70% 70%, #a21caf 10%, #38bdf8 100%);
-    border-color: #fff;
+    border-color: #131212;
     transform: translate(-50%, -50%) scale(1.5);
     box-shadow: 0 0 48px 12px #38bdf8, 0 0 0 12px #a21caf33;
     opacity: 1;
 }
 
 .vip-text {
-    background: linear-gradient(90deg, var(--accent), var(--accent2), #a21caf 80%);
+    background: linear-gradient(90deg, var(--accent), var(--accent2), #050505 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -53,11 +53,11 @@ body {
 .glass {
     background: var(--glass);
     backdrop-filter: blur(16px);
-    border: 1.5px solid rgba(255, 255, 255, 0.10);
+    border: 1.5px solid rgba(12, 12, 12, 0.1);
 }
 
 .product-card {
-    background: linear-gradient(135deg, #232946 60%, #a21caf 100%);
+    background: linear-gradient(135deg, #020202 60%, #a21caf 100%);
     border-radius: 2rem;
     box-shadow: 0 8px 32px 0 rgba(162, 28, 175, 0.18), 0 2px 8px 0 #0004;
     transition: transform 0.5s cubic-bezier(.4, 2, .3, 1), box-shadow 0.4s, border 0.3s;
@@ -102,7 +102,7 @@ body {
     color: var(--accent);
     font-size: 1.1em;
     margin-right: 1px;
-    filter: drop-shadow(0 0 2px #fff8);
+    filter: drop-shadow(0 0 2px rgba(1, 1, 1, 0.533));
     animation: starPop 1s cubic-bezier(.68, -0.55, .27, 1.55);
 }
 
@@ -166,7 +166,7 @@ body {
     box-shadow: 0 0 16px 0 #38bdf8cc, 0 2px 8px 0 #0004;
     transition: transform 0.3s, box-shadow 0.3s;
     background: linear-gradient(90deg, #f59e42 0%, #38bdf8 60%, #a21caf 100%);
-    color: #fff;
+    color: #201f1f;
     font-weight: 700;
     letter-spacing: 1px;
     border: none;
@@ -192,7 +192,7 @@ body {
     transform: scale(1.07) rotate(-1deg);
     box-shadow: 0 0 32px 4px #38bdf8cc, 0 2px 8px 0 #0004;
     background: linear-gradient(90deg, #a21caf 0%, #38bdf8 60%, #f59e42 100%);
-    color: #fff;
+    color: #060606;
 }
 
 .btn-glow:hover:after {
@@ -208,8 +208,8 @@ body {
 }
 
 .footer-glow {
-    background: linear-gradient(90deg, #232946 0%, #a21caf 100%);
-    box-shadow: 0 -4px 32px #a21caf55;
+    background: linear-gradient(90deg, #3950c3 0%, #0c090c 100%);
+    box-shadow: 0 -4px 32px #160b1755;
 }
 
 @media (max-width: 1024px) {
