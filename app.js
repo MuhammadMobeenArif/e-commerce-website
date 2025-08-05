@@ -66,7 +66,7 @@ const products = [
     },
     {
         id: 6,
-        image: "./images/products/BBQ chicken pizza.webp",
+        image: "./images/products/BBQ-chicken-pizza.webp",
         title: "BBQ Chicken Pizza",
         description: "BBQ chicken, cheese, and tangy sauce on a crispy base.",
         price: 700,
