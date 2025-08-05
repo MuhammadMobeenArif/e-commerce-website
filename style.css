@@ -12,7 +12,7 @@
 body {
     background: linear-gradient(120deg, #0f172a 0%, #a21caf 100%);
     font-family: 'Poppins', Arial, sans-serif;
-    color: #0e0d0d;
+    color: #c5c1c1;
     min-height: 100vh;
     scrollbar-color: var(--bg) var(--accent);
     scrollbar-width: thin;
@@ -166,7 +166,7 @@ body {
     box-shadow: 0 0 16px 0 #38bdf8cc, 0 2px 8px 0 #0004;
     transition: transform 0.3s, box-shadow 0.3s;
     background: linear-gradient(90deg, #f59e42 0%, #38bdf8 60%, #a21caf 100%);
-    color: #201f1f;
+    color: #c5c1c1;
     font-weight: 700;
     letter-spacing: 1px;
     border: none;
@@ -192,7 +192,7 @@ body {
     transform: scale(1.07) rotate(-1deg);
     box-shadow: 0 0 32px 4px #38bdf8cc, 0 2px 8px 0 #0004;
     background: linear-gradient(90deg, #a21caf 0%, #38bdf8 60%, #f59e42 100%);
-    color: #060606;
+    color: #c5c1c1;
 }
 
 .btn-glow:hover:after {
